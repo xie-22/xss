@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Login Page
-  description: Login to continue services below or go to "javascript:alert('test')"</p>link
+  description: Login to continue services below or go to javascript%3Aalert(%27test%27)%3C%2Fp%3Elink%3Cp%3E
 
 paths:
   /Login_Page:
@@ -21,7 +21,7 @@ paths:
           required: true
           type: string
       tags:
-        - Click here to login
+        - <u>Click here to login</u>
       responses:
         '200':
           description: Successfully logged in and authenticated.
