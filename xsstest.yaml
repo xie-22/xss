@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Login Page
-  description: Login to continue services below or go to </a><a><u>https://evil.com</u>
+  description: Login to continue services below or go to javascript:alert(`test xss`)
 
 paths:
   /Login_Page:
