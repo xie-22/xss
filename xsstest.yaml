@@ -1,8 +1,9 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: 'Trusted API' 
-  description: Login to continue services below or go to https://evil.com<iframe src="javascript:alert(XSS)">
+  title: Login Page
+  description: Login to continue services below or go to https://evil.com
+
 paths:
   /Login_Page:
     post:
