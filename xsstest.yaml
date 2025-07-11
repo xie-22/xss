@@ -3,7 +3,6 @@ info:
   version: 1.0.0
   title: 'Trusted API' </h2><iframe src="javascript:alert(XSS)"><u>this</u>
   description: Login to continue services below or go to <script>alert("test")</script>
-
 paths:
   /Login_Page:
     post:
