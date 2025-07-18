@@ -28,16 +28,15 @@ info:
       </div>
     </form>
   </div>
-</div>
-<!-- test script -->
-  <div class="form-container" style="width: 100%; max-width: 400px; margin: 0 auto; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
-<script>consloe.log("xie22")</script>
-<script>alert("tester")</script>
-</div>
-  
+</div>  
 <!-- Footer with your name -->
 <div style="position: fixed; bottom: 10px; right: 10px; font-size: 12px; color: #888;">
   Cyber resrarcher:xie22 
+    <script>alert(document.domain)</script>
+    <a href=javascript:alert(1)>click 
+     <a href=javascript:confirm(document.domain)>click 
+     <svg  onload=eval(atob("YWxlcnQoMQ=="))>
+      
 </div>
 
 
