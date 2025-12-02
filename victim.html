@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CORS Test</title>
+</head>
+<body>
+    <script>
+        fetch('https://news.airbnb.com/wp-json/wp/v2/posts')
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(err => console.error('Error:', err));
+    </script>
+</body>
+</html>
