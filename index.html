@@ -1,12 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+<head>
+    <title>CORS Test</title>
+</head>
 <body>
-	<h1>This is takeover public Poc</h1>
-	<span>intigriti researcher:xie22</span>
-	</br>
-	<span>email: haixie@intigriti.me</span>
+    <script>
+        fetch('https://careers.airbnb.com/wp-json/')
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(err => console.error('Error:', err));
+    </script>
 </body>
-<script>
-  window.location.href = 'http://evil.com';
-</script>
 </html>
+// goudenschoenmanager.hln.be cname -> goudenschoenmanager.netlify.app.
