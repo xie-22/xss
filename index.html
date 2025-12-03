@@ -5,7 +5,7 @@
 </head>
 <body>
     <script>
-        fetch('https://careers.airbnb.com/wp-json/')
+        fetch(' https://careers.airbnb.com/wp-json/?test')
             .then(response => response.json())
             .then(data => console.log(data))
             .catch(err => console.error('Error:', err));
