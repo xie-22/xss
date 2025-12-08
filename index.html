@@ -1,15 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>CORS Test</title>
-</head>
-<body>
-    <script>
-        fetch(' https://careers.airbnb.com/wp-json/?test')
-            .then(response => response.json())
-            .then(data => console.log(data))
-            .catch(err => console.error('Error:', err));
-    </script>
-</body>
-</html>
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Simulate normal user/or developer calling the interface</title>
+		<h1>Simulate normal user/or developer calling the interface</h1>
+    </head>
+    <body>
+        <script>
+            fetch('https://www.atlassian.com/ja/blog/wp-json')
+                .then(response => response.json())
+                .then(data => console.log(data))
+                .catch(err => console.error('Error:', err));
+        </script>
+    </body>
+    </html>
 // goudenschoenmanager.hln.be cname -> goudenschoenmanager.netlify.app.
