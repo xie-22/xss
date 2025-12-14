@@ -12,6 +12,12 @@
                 .then(data => console.log(data))
                 .catch(err => console.error('Error:', err));
         </script>
+		<script>
+            fetch('https://www.atlassian.com/gateway/api/graphql')
+                .then(response => response.json())
+                .then(data => console.log(data))
+                .catch(err => console.error('Error:', err));
+        </script>
     </body>
     </html>
 // goudenschoenmanager.hln.be cname -> goudenschoenmanager.netlify.app.
